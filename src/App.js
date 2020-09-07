@@ -15,12 +15,10 @@ import Navbar from './Components/Navbar/Navbar';
 function App() {
   return (
     <Router>
-      
-        <div className="App">
         <Navbar></Navbar>
       <Switch>
         <Route path="/newsfeed">
-        <NewsFeed />
+        <NewsFeed></NewsFeed>
         </Route>
         <Route path="/feed-details/:id">
           <FeedDetails></FeedDetails>
@@ -31,9 +29,7 @@ function App() {
         <Route path="*">
         <NotFound></NotFound>
         </Route>
-       
       </Switch>
-      </div>
     </Router>
   );
 }
