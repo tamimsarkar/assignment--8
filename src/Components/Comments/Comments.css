@@ -1,0 +1,25 @@
+.comments{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px lightgray;
+    font-size: 15px;
+    letter-spacing:1px;
+    margin-bottom: 10px !important;
+    border-bottom: 2px solid gray;
+}
+.email{
+   
+    font-size: 14px;
+    font-style: italic;
+}
+
+.email span{
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+.comment-body{
+    border-left: 1px solid lightgray;
+    
+}
